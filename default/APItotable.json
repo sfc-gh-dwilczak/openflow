@@ -822,12 +822,15 @@
         "y" : 112.0
       },
       "properties" : {
+        "Account" : "#{snowflake_7_account_identifier}",
+        "User" : "#{snowflake_8_username}",
         "Table" : "#{snowflake_6_table}",
         "Max Batch Size" : "10000",
         "Schema" : "#{snowflake_5_schema}",
         "Max Tasks Per Group" : "1",
         "Record Reader" : "bdadfdab-0cfb-3271-8077-4cda96d06612",
         "Iceberg Enabled" : "false",
+        "Private Key Service" : "#{snowflake_9_private_key}",
         "Connection Strategy" : "STANDARD",
         "Role" : "#{snowflake_2_role}",
         "Snowpipe Channel Prefix" : "${hostname(false)}",
@@ -912,13 +915,6 @@
           "dynamic" : false,
           "identifiesControllerService" : false,
           "name" : "Snowpipe Channel Index",
-          "sensitive" : false
-        },
-        "Private Key Service" : {
-          "displayName" : "Private Key Service",
-          "dynamic" : false,
-          "identifiesControllerService" : true,
-          "name" : "Private Key Service",
           "sensitive" : false
         },
         "Connection Strategy" : {
@@ -1079,6 +1075,6 @@
   "snapshotMetadata" : {
     "author" : "DANIELWILCZAK",
     "flowIdentifier" : "APItotable",
-    "timestamp" : 1765052145413
+    "timestamp" : 1765054384413
   }
 }
