@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1765052144840,
+    "description" : "Load data from an api to snowflake.",
+    "identifier" : "APItotable",
+    "lastModifiedTimestamp" : 1765052144840,
+    "name" : "API_to_table",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
