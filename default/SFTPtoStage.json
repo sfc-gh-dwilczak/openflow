@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1765039004615,
+    "description" : "This flow will load data from an SFTP and put it into a Snowflake stage.",
+    "identifier" : "SFTPtoStage",
+    "lastModifiedTimestamp" : 1765039004615,
+    "name" : "SFTP_to_Stage",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
